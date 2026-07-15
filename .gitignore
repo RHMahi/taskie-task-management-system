@@ -1,0 +1,15 @@
+# Build output
+build/
+*.exe
+*.o
+
+# Runtime user data (auto-generated, should not be tracked)
+data/
+
+# OS-generated files
+Thumbs.db
+.DS_Store
+
+# Editor/IDE files
+.vscode/
+*.swp
