@@ -15,23 +15,14 @@ from the terminal.
 
 ## Project Structure
 
-.
-├── controller
-│   ├── auth
-│   │   ├── auth.c
-│   │   └── auth.h
-│   └── todo
-│       ├── todo.c
-│       └── todo.h
-├── data
-│   └── (created automatically at runtime — stores users and tasks)
-├── utils
-│   ├── utils.c
-│   └── utils.h
-├── main.c
-├── Makefile
-└── README.md
-
+| Folder/File       | Description                          |
+|-------------------|--------------------------------------|
+| `main.c`          | Entry point of the application       |
+| `Makefile`        | Build automation script              |
+| `controller/auth/`| User login and registration system   |
+| `controller/todo/`| Task CRUD operations                 |
+| `utils/`          | Utility functions (helpers)          |
+| `data/`           | User and task storage (auto-created) |
 ## Requirements
 
 - GCC compiler (MinGW recommended on Windows)
