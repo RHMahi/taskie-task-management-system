@@ -61,7 +61,8 @@ make clean
 ## Authors
 
 University Project — Taskie
-Student IDs: 2407093, 2407101, 2407109
+Rahat Hasan Mahi ,Dibbo and Rup
+Student IDs: 2407101, 2407093, 2407109
 
 ## License
 
